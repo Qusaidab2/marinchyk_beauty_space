@@ -1,0 +1,53 @@
+
+
+.hero-inner{display:grid; grid-template-columns:1fr 420px; gap:28px; align-items:center}
+.hero h1{font-size:32px; margin:0 0 12px}
+.hero p{color:var(--muted); margin:0 0 18px}
+.hero-media img{width:100%; border-radius:12px; display:block}
+.services{padding:36px 0}
+.services h2{text-align:center}
+.services .grid{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:18px}
+.card{background:var(--card); padding:12px; border-radius:12px; box-shadow:0 6px 18px rgba(11,12,14,0.04); text-align:center}
+.card img{width:100%; height:180px; object-fit:cover; border-radius:8px}
+.lead{color:var(--muted); text-align:center}
+.about{padding:36px 0}
+.about-inner{display:grid; grid-template-columns:1fr 360px; gap:28px; align-items:center}
+.about-media img{width:100%; border-radius:12px}
+.gallery{padding:36px 0}
+.insta-grid img{width:100%; height:160px; object-fit:cover; border-radius:8px}
+.grid-4{display:grid; grid-template-columns:repeat(4,1fr); gap:12px}
+.contact{padding:36px 0}
+.contact-inner{display:grid; grid-template-columns:440px 1fr; gap:18px}
+.contact-card{background:var(--card); padding:18px; border-radius:12px; box-shadow:0 6px 18px rgba(11,12,14,0.04)}
+.contact-form{display:grid; gap:10px; align-content:start}
+.contact-form label{display:block}
+.contact-form input, .contact-form textarea{width:100%; padding:10px; border-radius:8px; border:1px solid #eee}
+.site-footer{padding:18px 0; background:#fff; border-top:1px solid #f1f1f1}
+.footer-inner{display:flex; justify-content:space-between; align-items:center}
+.small{color:var(--muted); font-size:13px}
+
+
+/* Responsive */
+@media (max-width:980px){
+.hero-inner{grid-template-columns:1fr}
+.about-inner{grid-template-columns:1fr}
+.container{padding:20px}
+.services .grid{grid-template-columns:1fr}
+.grid-4{grid-template-columns:repeat(2,1fr)}
+.contact-inner{grid-template-columns:1fr}
+}
+
+
+@media (max-width:480px){
+.logo{width:44px; height:44px}
+.brand-text{font-size:14px}
+.hero h1{font-size:22px}
+}
+
+
+
+
+
+
+
+-- End of document --
